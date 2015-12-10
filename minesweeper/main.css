@@ -1,0 +1,35 @@
+table{
+	/*border-collapse: collapse;*/
+	
+}
+table, tr, td{
+	border:1px solid black;
+}
+td{
+	text-align:center;
+	background-color:green;
+	width:25px;
+	height:25px;
+	border-left:1px solid #eee;
+	border-top:1px solid #eee;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+	
+}
+td.hover{
+	background-color:yellow;
+}
+td.selected{
+	border-left:2px solid black;
+	border-top:2px solid black;
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+	background-color:blue;
+}
+td.maineFlg{
+	background-color:red;
+}
+ div{
+	margin:15px;
+}
+
